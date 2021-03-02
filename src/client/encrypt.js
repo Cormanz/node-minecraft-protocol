@@ -2,7 +2,7 @@
 
 const crypto = require('crypto')
 const debug = require('debug')('minecraft-protocol')
-const yggdrasil = require('yggdrasil')
+const yggdrasil = require('mojang-auth')
 
 module.exports = function (client, options) {
   const yggdrasilServer = yggdrasil.server({ agent: options.agent, host: options.sessionServer || 'https://sessionserver.mojang.com' })
