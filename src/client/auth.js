@@ -1,5 +1,5 @@
 const UUID = require('uuid-1345')
-const yggdrasil = require('yggdrasil')
+const yggdrasil = require('mojang-auth')
 const fs = require('fs').promises
 const mcDefaultFolderPath = require('minecraft-folder-path')
 const path = require('path')
