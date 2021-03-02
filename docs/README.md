@@ -7,6 +7,8 @@
 
 [![Try it on gitpod](https://img.shields.io/badge/try-on%20gitpod-brightgreen.svg)](https://gitpod.io/#https://github.com/PrismarineJS/node-minecraft-protocol)
 
+A fork of `minecraft-protocol` to replace `yggdrasil` with `mojang-auth`, a package with the same API as yggdrasil but support for extra options (like custom hosts), and one that uses classes.
+
 Parse and serialize minecraft packets, plus authentication and encryption.
 
 ## Features
