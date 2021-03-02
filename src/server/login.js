@@ -3,7 +3,7 @@ const bufferEqual = require('buffer-equal')
 const crypto = require('crypto')
 const pluginChannels = require('../client/pluginChannels')
 const states = require('../states')
-const yggdrasil = require('yggdrasil')
+const yggdrasil = require('mojang-auth')
 
 module.exports = function (client, server, options) {
   const yggdrasilServer = yggdrasil.server({ agent: options.agent })
